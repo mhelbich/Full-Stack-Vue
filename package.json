@@ -1,0 +1,23 @@
+{
+  "name": "full-stack-vue",
+  "version": "1.0.0",
+  "description": "Full Stack Vue & Express App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mhelbich",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
