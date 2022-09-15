@@ -1,5 +1,5 @@
 # Full-Stack-Vue
-Full Stack Vue App using Express.js. Create posts using the form, double click them to delete them. API is public.
+Full Stack Vue App using Express.js. Create posts using the form input, delete them using the other button. API is public.
 
 Express server: `npm run start` or `npm run dev` (nodemon)
 

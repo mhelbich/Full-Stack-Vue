@@ -28,11 +28,15 @@ router.delete("/:id", async (req, res) => {
 
 async function loadPostsCollection() {
     const client = await mongodb.MongoClient.connect(
-        `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASS}@cluster0.i36nivv.mongodb.net/?retryWrites=true&w=majority`,
+        `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASS}@cluster0.afbrhdm.mongodb.net/?retryWrites=true&w=majority`,
         {
             useNewUrlParser: true,
         }
     );
+    // Prevent spamming of new connections, close each one
+    setTimeout(() => {
+        client.close();
+    }, 1500);
     return client.db("vue-full-stack").collection("posts");
 }
 
