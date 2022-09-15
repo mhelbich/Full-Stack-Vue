@@ -7,3 +7,6 @@ Vue client frontend: `npm run serve` for development and `npm run build` (to bui
 
 ## Live App on Heroku
  [https://full-stack-vue-app.herokuapp.com/](https://full-stack-vue-app.herokuapp.com/ "Live App on Heroku")
+
+## Reference/Source, Brad Traversy
+ [GitHub](https://github.com/bradtraversy/microposts_fullstack_vue) & [YouTube Tutorial](https://www.youtube.com/watch?v=j55fHUJqtyw)
